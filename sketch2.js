@@ -27,7 +27,7 @@ function preload() {
 
 function setup() {
   // put setup code here
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
   myMap = mappa.tileMap(options);
   myMap.overlay(canvas);
 }
@@ -56,7 +56,7 @@ function draw() {
 
   //title definitions
   push();
-  var myText = "Yeah I did";
+  var myText = "Yes...";
   textFont("Fondamento");
   textSize(60);
   fill('#9F7CE4');
@@ -67,13 +67,13 @@ function draw() {
 
   //text definition
   push();
-  var myText = "god damn";
+  var myText = ":(";
   textFont("Source Code Pro");
   textSize(20);
   fill('#9F7CE4');
   noStroke();
   textAlign(CENTER);
-  text(myText, 200 - 70, 100 + 50);
+  text(myText, 200 - 40, 100 + 50);
   pop();
 
 

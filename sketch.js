@@ -8,7 +8,7 @@ function setup() {
   background('#9F7CE4');
 
   //question definition
-  var myText = "Did I forget my drawing tablet back in Brasil";
+  var myText = "Did I forget my drawing tablet back in Brazil?";
   textFont("Fondamento");
   textSize(60);
   fill('#333');
